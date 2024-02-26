@@ -10,8 +10,8 @@ function UserList({ users }) {
   return (
     <table>
       <thead>
-        <tr>Name</tr>
-        <tr>Email</tr>
+        <th>Name</th>
+        <th>Email</th>
       </thead>
       <tbody>{renderedUsers}</tbody>
     </table>

@@ -1,4 +1,5 @@
-import { UserForm, UserList } from "./components/UserForm";
+import UserForm from "./components/UserForm";
+import UserList from "./components/UserList";
 import { useState } from "react";
 
 function App() {
