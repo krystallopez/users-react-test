@@ -1,4 +1,4 @@
-import UserForm from "./components/UserForm";
+import { UserForm, UserList } from "./components/UserForm";
 import { useState } from "react";
 
 function App() {
@@ -9,7 +9,9 @@ function App() {
   };
   return (
     <div>
-      <UserForm onUserAdd={onUserAdd}/>
+      <UserForm onUserAdd={onUserAdd} />
+      <hr />
+      <UserList users={users}/>
     </div>
   );
 }
