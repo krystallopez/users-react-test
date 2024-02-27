@@ -7,13 +7,16 @@ function UserList({ users }) {
       </tr>
     );
   });
+
   return (
     <table>
       <thead>
-        <th>Name</th>
-        <th>Email</th>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+        </tr>
       </thead>
-      <tbody>{renderedUsers}</tbody>
+      <tbody data-testid="users">{renderedUsers}</tbody>
     </table>
   );
 }
