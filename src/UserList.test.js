@@ -16,6 +16,7 @@ function renderComponent() {
 }
 
 test("render one row per user", () => {
+  // eslint-disable-next-line no-unused-vars
   const { users } = renderComponent();
 
   // find all the rows in the table
